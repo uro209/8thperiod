@@ -6,30 +6,8 @@ body {
   padding: 24px;
   min-height: 100hv;
 
-  body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-
   background-image:
-    linear-gradient(
-      rgba(50, 30, 100, 0.3),
-      rgba(50, 30, 100, 0.3)
-    ),
-    linear-gradient(
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4)
-    ),
-    url("image/periodictable-bk.png");
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-background-image:
-   linear-gradient(
+  linear-gradient(
       rgba(42, 54, 186, 0.35),
       rgba(28, 117, 144, 0.4)
     ),
