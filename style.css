@@ -73,3 +73,55 @@ dl {
 footer {
   width: 100%;
 }
+
+
+
+.music-list {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.music-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.cover {
+  width: 160px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.music-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.music-info h2 {
+  margin-top: 0;
+}
+
+.music-info a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #8be9fd;
+}
+
+.music-info a:hover {
+  color: #ffffff;
+}
+
+
+@media (max-width: 480px) {
+  .music-item {
+    gap: 12px;
+  }
+
+  .cover {
+    width: 110px;
+  }
+}
