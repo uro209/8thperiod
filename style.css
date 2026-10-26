@@ -89,6 +89,20 @@ footer {
   padding: 20px 0;
 }
 
+
+.music-player {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}
+
+
+.music-cover-area {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+
 .cover {
   width: 160px;
   aspect-ratio: 1 / 1;
@@ -101,9 +115,6 @@ footer {
   min-width: 0;
 }
 
-.music-info h2 {
-  margin-top: 0;
-}
 
 .music-info a {
   display: inline-block;
