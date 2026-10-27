@@ -40,6 +40,12 @@ h2 {
   font-size: 1.5rem;
 }
 
+h3 {
+  color: #2c74c6;
+  font-size: 1.2rem;
+}
+
+
 li {
  color: #98b9e0;
 
@@ -130,6 +136,23 @@ footer {
     width: 110px;
   }
 }
+
+
+.image-list {
+
+  display:flex;
+  gap: 16px;
+  justify-content: center;
+  
+
+}
+
+.image-list img {
+
+  width: 40%
+}
+
+
 
 
 
