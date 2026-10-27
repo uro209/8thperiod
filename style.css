@@ -136,7 +136,7 @@ footer {
 /* サンプル表示専用のフォント */
 @font-face {
   font-family: "83-f";
-  src: url("dl/file-font/83-f.ttf") format("ttf");
+  src: url("dl/file-font/83-f.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
