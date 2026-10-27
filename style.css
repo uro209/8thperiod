@@ -152,7 +152,7 @@ footer {
   width: 40%
 }
 
-@media (max-width: 767px) {
+@media (max-width: 480px) {
    .image-list {
     flex-direction: column;
   }
