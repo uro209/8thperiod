@@ -130,3 +130,22 @@ footer {
     width: 110px;
   }
 }
+
+
+
+/* サンプル表示専用のフォント */
+@font-face {
+  font-family: "83-f";
+  src: url("dl/file-font/83-f.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* サンプル部分だけに適用 */
+.font-83f {
+  font-family: "83-f", sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
