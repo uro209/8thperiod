@@ -152,15 +152,7 @@ footer {
   width: 40%
 }
 
-@media (max-width: 480px) {
-   .image-list {
-    flex-direction: column;
-  }
 
-  .image-list__item {
-    width: 100%;
-  }
-}
 
 
 /* サンプル表示専用のフォント */
