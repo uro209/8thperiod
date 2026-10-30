@@ -75,6 +75,11 @@ dl {
 }
 
 
+figcaption {
+  color:#98b9e0;
+  font-size: 0.9rem;
+  text-align: center;
+}
 
 
 footer {
