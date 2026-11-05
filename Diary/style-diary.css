@@ -111,3 +111,17 @@ footer {
 a {
   margin-right: 5px;
 }
+
+
+.image-list2 {
+
+  display:flex;
+  justify-content: center;
+  
+
+}
+
+.image-list__item2 {
+
+  width: 50%
+}
