@@ -152,7 +152,7 @@ footer {
 .image-list {
 
   display:flex;
-  gap: 16px;
+  gap: 5px;
   justify-content: center;
   
 
@@ -160,7 +160,7 @@ footer {
 
 .image-list__item {
 
-  width: 40%
+  width: 50%
 }
 
 
