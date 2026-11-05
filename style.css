@@ -141,6 +141,11 @@ footer {
   .cover {
     width: 110px;
   }
+
+ .artworkcp {
+    width: 100%;
+  }
+
 }
 
 
@@ -176,4 +181,9 @@ footer {
   font-size: 1rem;
   line-height: 1.8;
   overflow-wrap: anywhere;
+}
+
+
+.artworkcp {
+ width: 70%;
 }
